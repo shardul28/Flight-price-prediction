@@ -539,14 +539,14 @@ user_data['Additional_Info'] = user_data['Additional_Info'].map({
 })
 Algorithm=alg
 if Algorithm=="ExtraTreeRegressor":
-        model = pickle.load(open('models\ExtraTreeRegressormodel.sav', 'rb'))
+        model = pickle.load(open('ExtraTreeRegressormodel.sav', 'rb'))
         print()
 elif Algorithm=="RandomForestRegressor":
-        model = pickle.load(open('models\RandomForestRegressormodel.sav', 'rb'))
+        model = pickle.load(open('RandomForestRegressormodel.sav', 'rb'))
 
         print()
 elif Algorithm=="XGBRegressor":
-        model = pickle.load(open('models\XGBRegressormodel.sav', 'rb'))
+        model = pickle.load(open('XGBRegressormodel.sav', 'rb'))
 
         print()
 elif Algorithm=="GradientBoostingRegressor":
@@ -554,7 +554,7 @@ elif Algorithm=="GradientBoostingRegressor":
         print()
 else:
         print()
-        model = pickle.load(open('models\DecisionTreeRegressormodel.sav', 'rb'))
+        model = pickle.load(open('DecisionTreeRegressormodel.sav', 'rb'))
 salary = model.predict(user_data)
 st.subheader('Flight price range')
 #0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
