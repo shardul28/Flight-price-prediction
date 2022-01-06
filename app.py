@@ -561,4 +561,4 @@ st.subheader('Flight price range')
 
 
 #st.subheader('The mobile price range is'+str(np.round(salary[0], 2)))
-st.subheader('The Flight price is approx. :'+str(salary[0]))
+st.subheader('The Flight price is approx. :'+str(np.round(salary[0], 2))
