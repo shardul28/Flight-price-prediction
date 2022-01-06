@@ -540,7 +540,6 @@ user_data['Additional_Info'] = user_data['Additional_Info'].map({
 Algorithm=alg
 if Algorithm=="ExtraTreeRegressor":
         model = pickle.load(open('models\ExtraTreeRegressormodel.sav', 'rb'))
-
         print()
 elif Algorithm=="RandomForestRegressor":
         model = pickle.load(open('models\RandomForestRegressormodel.sav', 'rb'))
