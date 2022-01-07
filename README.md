@@ -10,7 +10,7 @@
 </div>
     
   </a>
- <img src="https://github.com/shardul28/Flight-price-prediction/blob/main/JF.gif"/>
+ <img src="https://github.com/shardul28/Flight-price-prediction/blob/main/JFi.gif"/>
   <h3 align="center">Flight price Predictor</h3>
 
 Goal :To create a flight price predictor by various features of the flight.
